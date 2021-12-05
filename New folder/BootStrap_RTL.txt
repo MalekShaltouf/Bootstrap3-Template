@@ -1,0 +1,16 @@
+1-https://github.com/morteza/bootstrap-rtl/blob/master/dist/css/bootstrap-rtl.css
+
+note:this version are not perfect
+
+2-https://github.com/ElzeroWebSchool/Bootstrap3DesignOne/blob/master/css/bootstrap_rtl.css
+
+note:(åĞå ØÑíŞÉ ÇáÒíÑæ ÈÇáÊÚÑíÈ æáßä áíÓ ááÈæÊÓÊÑÇÈ ßÇãá İŞØ ÌÒÁ ãÚíä(İŞØ ÇáÌÒÁ ÇáĞí ŞÇã ÈÚãáå İí ÇáÏÑÓ
+
+
+3-https://github.com/midhost/bootstrap-rtl/blob/master/bootstrap-rtl.css
+note:ØÑíŞÉ ÇáÊÚÑíÈ åäÇ ÓíÆÉ áÇäæ äÇÓÎ ßá ÇáÈæÊÓÊÑÇÈ ßæÏ æÚÇãá áßá ÇÔí ßÇä íÓÇÑ ÇÕÈÍ íãíä æÇáÚßÓ ÕÍíÍ
+
+
+
+4- website convert css code from LTR TO RTL:
+https://rtlcss.com/playground/

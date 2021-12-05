@@ -1,0 +1,701 @@
+/* html{
+    scroll-behavior: smooth;  
+} */
+body{
+    padding-top:70px;
+    overflow:hidden;
+}
+
+/*[Start]
+    Custom navbar style code
+*/
+.navbar-inverse .navbar-nav > .active > a,
+.navbar-inverse .navbar-nav > .active > a:hover,
+.navbar-inverse .navbar-nav > .active > a:focus{
+    color:#000;
+}
+.navbar-inverse .navbar-nav > li > a,
+.dropdown-menu > li > a {
+    color:#fff;
+}
+.dropdown-menu > li > a {
+    padding:7px 20px;
+}
+.dropdown-menu {
+    background-color:#000;
+    min-width:200px;
+}
+.dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus{
+    color:#000;
+    Padding-left:30px;
+    -webkit-transition:padding-left .5s ease;
+    -moz-transition:padding-left .5s ease;
+    -o-transition:padding-left .5s ease;
+    transition:padding-left .5s ease;
+}
+
+.navbar-right .dropdown-menu{
+    right:auto;
+    left:0;
+}
+.navbar-nav > li > a{
+    padding-top:25px;
+    padding-bottom:25px;
+   font-size:16px;
+}
+.navbar{
+    min-height:70px;
+}
+.navbar-brand {
+    font-size:30px;
+    line-height:39px;
+    transition:color .5s ease-in-out;
+}
+
+.navbar-inverse .navbar-nav > li > a:hover
+{
+    transition:color 1.5s ease;
+}
+.navbar-inverse .navbar-brand:hover,
+.navbar-inverse .navbar-brand:focus
+{
+    transition:color .8s ease;
+}
+.navbar-toggle {
+    margin-top: 19px;
+}
+/* [End] */
+
+
+/* [Start option-box Section Style] */
+.option-box{
+    position: fixed;
+    top:100px;
+    z-index:9999;
+    overflow: hidden;
+}
+.option-box .option-color{
+    background-color:#101010;
+    width:166px;
+    padding:10px;
+    float:left;
+    border:4px solid;
+    display: none;
+}
+.option-box .option-color h4{
+    color:#FFF;
+    margin-bottom:15px;
+}
+.option-box .option-color ul li{
+    width:20px;
+    height:20px;
+    display: inline-block;
+    cursor: pointer;
+}
+.option-box .gearIcon{
+    color:#FFF;
+    padding:3px;
+    cursor:pointer;
+    float:left;
+}
+.hide-show{
+    display:none;
+}
+
+/* [End] */
+
+/*[Start]
+    Custom Carousel style code
+*/
+
+.PrevNextIcon{
+    padding-top:230px;
+}
+.carousel-caption{
+    bottom:100px;
+    background-color: rgba(2,2,2,.8);
+    padding-left:20px;
+    padding-right:20px;
+}
+.carousel-caption h1{
+    font-weight:bolder;
+}
+.carousel-caption p{
+    margin-top:20px;
+}
+.carousel-indicators{
+    bottom:0;
+}
+.carousel-indicators li{
+    width:20px;
+    height:20px;
+    border:3px solid #000;
+}
+.carousel-indicators .active{
+    width:22px;
+    height:22px;
+}
+.carousel-inner .item img{
+    width:1366px;
+    /* width:100%; */ /*this line resolve imge error when we do zoom in or zoom out*/ 
+    height:555px;
+}
+.carousel-inner>.item>img{width:100%}
+/* [End] */
+
+/* [Start About Section Style] */
+
+.about{
+    padding:60px 0;
+}
+.about .lead{
+    color:#888;
+    font-size:25px;
+    margin-top:15px;
+}
+
+/* [End] */
+
+/* [Start Feachers Section style] */
+.featchers{
+    background-color:#EEE;
+}
+.featchers h1{
+    font-weight: bolder;
+    margin:40px 0;
+}
+.featchers .feat{
+    margin:20px 0 60px 0;
+}
+.featchers .feat{
+    line-height:25px;
+}
+.featchers .feat .glyphicon{
+    font-size:25px;
+    color:#888;
+}
+
+/* [End] */
+
+
+/* [Start Testimonials Section style] */
+
+.testimonials {
+    padding:50px 0;
+}
+/* this way => represent way of me */
+.testimonials .carousel-indicators{
+    position:static;
+    margin-left:0;
+    width:100%;
+}
+.testimonials .carousel-indicators li{
+    width:80px;
+    height:80px;
+    text-indent: 0;
+    border-radius:50%;
+    overflow: hidden;
+    margin:5px;
+    opacity: 0.4;
+    transition:all .5s ease;
+    border:3px solid #9dd5fd;
+}
+.testimonials .carousel-indicators li img{
+    width:80px;
+    height:80px;
+    border-radius:50%;
+}
+.testimonials .carousel-indicators .active{
+    background:none;
+    opacity: 1;
+    background-color:#9dd5fd;
+    border:3px solid #000;
+}
+/* this way => represent way of me */
+
+/* this way => represent way of Elzero web school */
+/* .testimonials .carousel-indicators{
+    position:static;
+    width:100%;
+    margin-left:auto;
+    padding-top:20px;
+}
+.testimonials .carousel-indicators li {
+    text-indent: 0;
+    width:80px;
+    height:80px;
+    opacity: 0.4;
+    border:3px solid #9dd5fd;
+    border-radius: 50%;
+    overflow: hidden;
+    transition:all .5s ease;
+}
+.testimonials .carousel-indicators li img{
+    width:80px;
+    height:80px;
+    border-radius: 50%;
+}
+.testimonials .carousel-indicators .active {
+    background:#9dd5fd;
+    opacity:1;
+    border: 3px solid #000;
+} */
+
+/* this way => represent way of Elzero web school */
+.testimonials .carousel-inner {
+    min-height: 160px;
+}
+.testimonials h1{
+    font-weight: bold;
+    margin-bottom:25px;
+}
+.testimonials .lead{
+    line-height:2em;
+}
+.testimonials span{
+    font-weight:bold;
+    font-size:20px;
+}
+/* [End] */
+
+/* [Start Testimonials Section style] */
+.price_table{
+    background-color:#EEE;
+    padding-top:20px;
+}
+.price_table h1{
+    font-weight: bold;
+    margin-bottom:40px;
+}
+.price_table .price_box{
+    background-color: #FFF;
+    margin-bottom:40px;
+    padding:20px 0 30px 0;
+}
+.price_table .price_box h3{
+    font-weight: bold;
+    margin-bottom:25px;
+}
+.price_table .price_box p{
+    font-size:35px;
+    background-color:#e8e8e8;
+    width:100px;
+    height:100px;
+    border-radius:50%;
+    line-height: 100px;
+    border:3px solid #FFF;
+    transition:transform .7s ease;
+    /* transition-duration: .7s; */
+}
+.price_table .price_box:hover p{
+    transform:scale(1.1,1.1) rotate(360deg);
+    border:3px solid #c3c3c3;
+    cursor: default;
+}
+.price_table .price_box ul {
+    margin:20px 0;
+    line-height: 250%;
+    font-size:18px;
+}
+/* [End] */
+
+/* [Start OurTeam Section style] */
+.our_team {
+    background:url("../../Images/office.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -ms-background-size: cover;
+    background-size: cover;
+    min-height: 600px;
+    color:#FFF;
+}
+.our_team .team{
+    background:rgba(2,2,2,.8);
+    min-height: 600px;
+}
+.our_team h1 {
+    font-weight: bold;
+    margin-top:45px;
+    margin-bottom:60px;
+}
+.our_team .person{
+     margin-bottom:60px;
+}
+.our_team .person p {
+    margin-top:20px;
+    font-size:17px;
+}
+.our_team .person div{
+    margin-top:20px;
+}
+.our_team .person a{
+    color:#FFF;
+} 
+
+/* [End] */
+
+/* [Start OurTeam Section style] */
+.subscribe{
+    background-color:#EEE;
+    padding:40px 0 60px;
+}
+.subscribe h1{
+    font-weight: bold;
+    margin-bottom:20px;
+    letter-spacing:2px;
+}
+.subscribe p{
+    margin-bottom:30px;
+}
+.subscribe .form-control {
+    margin-right:-4px;
+    border-radius:0;
+    width:350px;
+    
+}
+.subscribe button{
+    border-radius:0;
+    transition:background-color .5s ease;
+}
+.subscribe .btn:focus,
+.subscribe .btn:active:focus,
+.subscribe .btn.active:focus{
+    outline:5px auto #ac2925;
+}
+/* [End] */
+
+/* [Start OurTeam Section style] */
+.statistcs {
+    background:url("../../Images/macbook.jpg") no-repeat center center fixed;
+    -webkit-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+    -ms-background-size: 100% 100%;
+    background-size: 100% 100%;
+    min-height:300px;
+}
+.statistcs .data{
+    background-color:rgba(2,2,2,0.8);
+    min-height: 300px;
+    color:#FFF;
+    padding:40px 0 70px;
+}
+.statistcs h1{
+    font-weight: bold;
+    margin-bottom:40px;
+    letter-spacing: 2px;
+}
+.statistcs .stats{
+    margin-bottom:40px;
+    -webkit-transition:color .5s ease-in-out;
+    -ms-transition:color .5s ease-in-out;
+    -moz-transition:color .5s ease-in-out;
+    -o-transition:color .5s ease-in-out;
+    transition:color .5s ease-in-out;
+    cursor:default;
+}
+.statistcs .stats p{
+    font-size:60px;
+    font-weight: bolder;
+    margin-top:25px;
+    margin-bottom:0;
+}
+.statistcs .stats span{
+    font-size:18px;
+}
+/* [End] */
+
+/* [Start Our Skills Section style] */
+.our-skills{
+    padding:40px 0 70px;
+}
+.our-skills h1{
+    font-weight: bold;
+    margin-bottom:50px;
+}
+.our-skills .progress{
+    height:36px;
+    margin-bottom:29px;
+}
+.our-skills .progress-bar{
+    font-size:18px;
+    line-height: 36px;
+    text-align:left;
+    text-indent:13px;
+    font-weight: bold;
+}
+.our-skills .progress-skills{
+    margin-top:4px;
+}
+.our-skills .team-info h3{
+    font-weight: bold;
+    margin-top:0;
+}
+
+/* [End] */
+
+/* [Start Our Skills Section style] */
+.contact-us{
+    background:url("../../Images/computer-2137265_1920.jpg") no-repeat center center fixed;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    -ms-background-size:cover;
+    background-size:cover;
+    min-height:350px;
+}
+.contact-us .fields{
+    background-color:rgba(9,9,9,0.8);
+    min-height: 350px;
+    padding:40px 0 80px;
+}
+
+.contact-us h1{
+    font-weight: bold;
+    letter-spacing: 2px;
+    margin-bottom:30px;
+}
+.contact-us p{margin-bottom:50px;color:#FFF;}
+.contact-us textarea {
+    height:108px;
+}
+.contact-us textarea,.contact-us input[type="text"]{
+    background-color:rgba(82,78,78,0.8);
+    border:none;
+    color:#FFF;
+}
+.contact-us .btn-danger{
+    transition:background-color .5s ease;
+}
+
+
+/* [End] */
+
+/* [Start Our Clients Section style] */
+.our-clients{
+    background:#EEE;
+    padding:20px 0;
+}
+.our-clients img{
+    opacity:0.7;
+    margin:20px 0;
+    -webkit-transition:opacity .5s ease-in-out;
+    -o-transition: opacity .5s ease-in-out; 
+    -m-transition: opacity .5s ease-in-out; 
+    -moz-transition: opacity .5s ease-in-out; 
+    transition: opacity .5s ease-in-out; 
+}
+.our-clients img:hover{
+    opacity:1;
+}
+/* [End] */
+
+/* [Start Footer Section style] */
+.footer
+{
+    background-color:#111;
+    padding:10px 0 0;
+}
+.footer h3{
+    /* color:#0895D1; */
+    letter-spacing: 1px;
+    margin-bottom:20px;
+   
+}
+.footer a{
+    text-decoration:none;
+    color:#AAA;
+    -webkit-transition:color .5s ease-in-out;
+    -moz-transition:color .5s ease-in-out;
+    -o-transition:color .5s ease-in-out;
+    -ms-transition:color .5s ease-in-out;
+    transition:color .5s ease-in-out;
+}
+.footer a:hover{
+    color:#FFF;
+}
+.footer .listlink {
+    overflow:hidden;
+}
+.footer .listlink li {
+    width:33.3333%;
+    float:left;
+    margin-bottom: 10px;
+    font-size:15px;
+}.footer .social-list{
+    overflow: hidden;
+}
+.footer .social-list li{
+    float:left;
+    margin:15px 0 0 15px;
+    opacity:0.7;
+    -webkit-transition:opacity .5s ease-in-out;
+    -moz-transition:opacity .5s ease-in-out;
+    -ms-transition:opacity .5s ease-in-out;
+    -o-transition:opacity .5s ease-in-out;
+    transition:opacity .5s ease-in-out;
+}
+.footer .social-list li:first-of-type{
+    margin-left:0;
+}
+.footer .social-list li:hover{
+    opacity:1;
+}
+.footer .media{
+    color:#AAA;
+}
+.AwesomeWorkSection-child > div{
+    display: inline-block;
+}
+.footer .img-thumbnail{
+    margin-bottom:5px;
+    margin-left:2px;
+    background-color:#AAA;
+}
+.footer .copyright{
+    background-color:#333;
+    color:#AAA;
+    padding:8px;
+    font-size:20px;
+    margin-top:10px;
+}
+
+/* [End] */
+
+/* [Start Loading-overlay Section style] */
+.loading-overlay{
+    background:#222;
+    width:100%;
+    height:100%;
+    position:fixed;
+    top:0;
+    left:0;
+    z-index:9999;
+    color:#FFF;
+}
+.sk-chase {
+    width: 40px;
+    height: 40px;
+    position: relative;
+    top:45%;
+    left:50%;
+    animation: sk-chase 2.5s infinite linear both;
+  }
+  
+  .sk-chase-dot {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0; 
+    animation: sk-chase-dot 2.0s infinite ease-in-out both; 
+  }
+  
+  .sk-chase-dot:before {
+    content: '';
+    display: block;
+    width: 25%;
+    height: 25%;
+    background-color: #fff;
+    border-radius: 100%;
+    animation: sk-chase-dot-before 2.0s infinite ease-in-out both; 
+  }
+  
+  .sk-chase-dot:nth-child(1) { animation-delay: -1.1s; }
+  .sk-chase-dot:nth-child(2) { animation-delay: -1.0s; }
+  .sk-chase-dot:nth-child(3) { animation-delay: -0.9s; }
+  .sk-chase-dot:nth-child(4) { animation-delay: -0.8s; }
+  .sk-chase-dot:nth-child(5) { animation-delay: -0.7s; }
+  .sk-chase-dot:nth-child(6) { animation-delay: -0.6s; }
+  .sk-chase-dot:nth-child(1):before { animation-delay: -1.1s; }
+  .sk-chase-dot:nth-child(2):before { animation-delay: -1.0s; }
+  .sk-chase-dot:nth-child(3):before { animation-delay: -0.9s; }
+  .sk-chase-dot:nth-child(4):before { animation-delay: -0.8s; }
+  .sk-chase-dot:nth-child(5):before { animation-delay: -0.7s; }
+  .sk-chase-dot:nth-child(6):before { animation-delay: -0.6s; }
+  
+  @keyframes sk-chase {
+    100% { transform: rotate(360deg); } 
+  }
+  
+  @keyframes sk-chase-dot {
+    80%, 100% { transform: rotate(360deg); } 
+  }
+  
+  @keyframes sk-chase-dot-before {
+    50% {
+      transform: scale(0.4); 
+    } 100%, 0% {
+      transform: scale(1.0); 
+    } 
+  }
+
+
+  /*************/
+/*[start]
+ *css fadeOut code
+*/
+  .fadeOut{
+	animation-name: fadeOut;
+	-webkit-animation-name: fadeOut;	
+
+	animation-duration: 4s;	
+	-webkit-animation-duration: 4s;
+
+	animation-timing-function: ease;	
+	-webkit-animation-timing-function: ease;
+
+	-webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;		
+}
+
+@keyframes fadeOut {
+	0% {
+		opacity: 1;
+    }
+	100% {
+		opacity: 0;
+	}	
+}
+/*[End fadeOut code]*/
+  /*************/
+  
+/* [End Loading-overlay Section] */
+
+/* [Start scroll-up button style] */
+.scroll-up{
+    width:50px;
+    color:#FFF;
+    position:fixed;
+    right:10px;
+    bottom:10px;
+    z-index:9999;
+    text-align:center;
+    display:none;
+    cursor: pointer;
+    transition: background-color .5s ease-in-out;
+}
+/* [End] */
+
+/* [Start Font Face Experiment] */
+.x{
+    font-family: malek2;
+    /* font-family: malek; */
+    font-size:30px;
+}
+@font-face{
+    font-family: malek;
+    src:url("../../fonts/parisienne/Parisienne-Regular.ttf");
+}
+
+@font-face{
+    font-family: malek2;
+    src:url("../../fonts/satisfy/Satisfy-Regular.ttf");
+}
+/* [End] */
+
+
+
+
+/* must be make the frequnet style to combine to one style such as:background-img,background-size,h1 style,...etc */

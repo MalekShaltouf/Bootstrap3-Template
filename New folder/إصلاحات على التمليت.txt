@@ -1,0 +1,9 @@
+1- change Curosul Images
+2- change Curosul next,prev button based on website color 
+   that choosed.
+3- change BBC,CNN,WSJ Images(get images from Elzero template website)
+ 
+4- get avatar image from Elzero template website
+
+5- in Home page when click on Feachers link from nvaBar => add smooth
+   scroll when nvaigate to Feachers Section.

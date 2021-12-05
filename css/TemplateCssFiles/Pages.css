@@ -1,0 +1,78 @@
+/*About Page Style*/
+.breadcrumb-holder{
+    background-color:#F5F5F5;
+}
+.breadcrumb{
+    margin-bottom:0;
+    padding:8px 0;
+}
+.about-us{
+    padding:40px;
+}
+.about-us h1{
+    font-family: raleway,sans-serif;
+    font-size:5vmax;
+    letter-spacing: -3px
+}
+.about-us hr{
+    width:70%;
+}
+.about-feachers{
+    margin-bottom:70px
+} 
+.about-feachers h3,.about-ceo h3{
+    font-family: raleway,sans-serif;
+    letter-spacing: -1px;
+}
+.about-ceo{
+    background-color:#EEE;
+    padding-top:40px
+}
+.about-ceo h3{
+    /* font-size:3vw; */
+    font-size:3vmax;
+}
+.about-ceo .lead{
+    line-height: 1.8;
+}
+.about-ceo .btn-primary{
+    background-color: #333;
+    border-color: #333;
+    margin-bottom:30px
+}
+/*About Page Style*/
+
+/*FAQ Page Style*/
+.faq-intro {
+    padding:30px 0;
+}
+.faq-intro h1{
+    font-family: 'raleway',sans-serif;
+    letter-spacing: -3px;
+    font-size:5vmax
+
+}
+.faq-intro h1 ~ hr{
+    width:70%;
+}
+.faq-accordion .panel-heading{
+    padding:20px 15px;
+}
+.faq-accordion .panel-title a{
+    text-decoration:none;
+    color:#0044fb;
+    font-family: bolder;
+}
+.faq-accordion .panel-heading a:after{
+    font-family: 'Glyphicons Halflings';
+    content: "\e114";
+    float:right;
+}
+.faq-accordion .panel-heading a.collapsed:after{
+    content: "\e080";
+}
+/*FAQ Page Style*/
+@font-face{
+    font-family: raleway;
+    src:url("../../fonts/ralewayFont/raleway.heavy.ttf");
+}

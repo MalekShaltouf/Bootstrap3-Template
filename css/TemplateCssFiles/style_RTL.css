@@ -1,0 +1,34 @@
+.dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus{
+    Padding-right:30px;
+    -webkit-transition:padding-right .5s ease;
+    -moz-transition:padding-right .5s ease;
+    -o-transition:padding-right .5s ease;
+    transition:padding-right .5s ease
+}
+.navbar-right .dropdown-menu{left:auto;right:0}
+
+.testimonials .carousel-indicators{margin-right:0}
+
+.subscribe .form-control {margin-left:-4px}
+
+.our-skills .progress-bar{text-align:right}
+
+.footer .social-list li{margin:15px 15px 0 0}
+
+.footer .social-list li:first-of-type{margin-right:0}
+
+.footer .img-thumbnail{margin-right:2px}
+
+.loading-overlay{right:0}
+
+.sk-chase {right:50%}
+
+.sk-chase-dot {right: 0}
+
+.scroll-up{right:10px}
+
+.option-box .option-color,.option-box .gearIcon,
+.footer .listlink li,.footer .social-list li
+{
+    float:right
+}

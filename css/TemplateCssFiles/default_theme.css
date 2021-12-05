@@ -1,0 +1,94 @@
+.navbar-inverse .navbar-nav > .active > a,
+.navbar-inverse .navbar-nav > .active > a:hover,
+.navbar-inverse .navbar-nav > .active > a:focus,
+
+.dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus,
+
+.dropdown-menu .divider,
+
+.option-box .gearIcon,
+
+.carousel-indicators .active,
+
+.contact-us .btn-danger,
+
+.scroll-up
+{
+    /* background-color:#f3f30a; */
+    background-color:#e8e842;
+}
+
+.dropdown-menu {
+    /* border-top:3px solid #f3f30a; */
+    border-top:3px solid #e8e842;
+}
+
+.navbar-inverse .navbar-brand span,
+
+.navbar-inverse .navbar-nav > li > a:hover,
+
+.navbar-inverse .navbar-toggle,
+
+.about h1 span,.about h3 span,
+
+.testimonials span,
+
+.carousel-caption .h1,
+
+.our_team .h1,
+
+.statistcs .h1,
+
+.contact-us .fa-headphones,
+
+.statistcs .stats:hover,
+
+.contact-us .h1,
+
+.footer h3,
+
+.footer .copyright span
+{
+    /* color:#f3f30a; */
+    color:#e8e842;
+}
+
+/* :hover,
+.navbar-inverse .navbar-brand:focus, */
+
+.featchers .h1,
+
+.price_table .h1,
+.subscribe .h1,
+
+.testimonials .h1,
+
+.our-skills .h1,
+.featchers .h1,.price_table .h1,
+.subscribe .h1
+{
+    color:#b7b700;
+}
+
+.contact-us .btn-danger,
+.navbar-inverse .navbar-toggle,
+.option-box .option-color
+{
+    border-color:#e8e842;
+}
+.contact-us .btn-danger:hover,
+.contact-us .btn-danger:focus,
+.contact-us .btn-danger:active,
+.contact-us .btn-danger.active,
+.contact-us .open>.dropdown-toggle.btn-danger,
+
+.scroll-up:hover
+{
+    background-color:#b7b700;
+    border-color:#b7b700
+}
+@media(max-width:767px){
+    .navbar-inverse .navbar-nav .open .dropdown-menu .divider{
+        background-color: #e8e842;
+    }
+}
